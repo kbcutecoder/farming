@@ -13,3 +13,20 @@
     background:lightgray;
     
 }
+
+#intro {
+    background-image: url("images/orangeplant.jpeg");
+    height: 100vh;
+    background-size: cover;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #intro {
+      margin-top: -58.59px;
+    }
+  }
+
+  .mb-3{
+    font-size: 80px;
+  }
