@@ -124,3 +124,33 @@
   }
   }
    
+  
+
+  .shapedividers_com-7916{
+    overflow:hidden;
+    position:relative;
+    }
+    .shapedividers_com-7916::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 107px;
+    background-position: 50% 100%;  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none"><path fill="%23ffffff" d="M0 288l1440-128v160H0z"/><path fill="%23ffffff" opacity=".66" d="M0 192l1440-96v224H0z"/></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shapedividers_com-7916::before{
+    background-size: 100% calc(2vw + 107px);
+    }
+    }
+
+
+    
+     
